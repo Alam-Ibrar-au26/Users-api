@@ -1,8 +1,11 @@
+/* Styled for all users */
 .user {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+
+/* Styled for single user container */
 .user-container {
   border-radius: 20px;
   width: 270px;
@@ -13,6 +16,7 @@
     rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
+/* Styled for user avatar in container */
 .user-container > img {
   border-radius: 50%;
   height: 180px;
@@ -22,6 +26,7 @@
     rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
+/* Styled for repo Button */
 .btn {
   background-color: black;
   width: 80px;
@@ -31,11 +36,13 @@
   border-radius: 10px;
 }
 
+/* Styled for Username */
 .title {
   font-weight: bold;
   font-size: 20px;
 }
 
+/* Styled for a tag */
 .anchor {
   text-decoration: none;
   color: aliceblue;
